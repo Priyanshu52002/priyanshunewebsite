@@ -1,0 +1,188 @@
+.body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h2{
+    font-family: 'Merriweather', serif; 
+    font-size: 2.5rem;
+    font-weight: 700;
+}                      
+  /* title section */
+
+#title{
+    background-color: #ff4c68;
+    padding: 3% 10% 3%;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar{   
+    padding:0 0 2.5rem 0;    
+}
+.title-text{ 
+    font-family: 'Merriweather', serif; 
+      font-size:4rem;
+      line-height: 1.5; 
+      font-weight: 900;    
+      color: azure; 
+      padding-bottom: 2%; 
+      margin-bottom: 2%;
+}
+.nav-item{
+    padding:0 13px;
+}
+.nav-link{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.downloadbutton{
+    padding:2% 2% 2% 2%;
+    margin: 0 2% 0% 0;    
+}
+.dog-img{
+    width: 60%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+   transform: rotate(30deg);
+    position: absolute;
+}
+
+    /* features section */
+
+#features{
+    background-color: azure;
+    padding: 10% 0 10% 0;
+    font-weight: 400;
+    font-size: 1rem;
+    padding:7% 14%;
+    position: relative;
+    z-index: 1;
+}
+.feature-text{
+    font-size: 1.5rem;
+    font-family:'Montserrat', sans-serif ;
+    font-weight: bold;
+}
+.f-icon{
+    color:#eF8172;
+    font-size: 3.5rem;
+    padding-bottom: 1.5rem;
+}
+.f-icon:hover{
+    color: #ff4c68;
+}
+.feature-box{
+
+    padding:5%;
+}
+
+            /* Testimonials section */
+#testimonials{    
+    background-color: #eF8172;
+    text-align: center;
+    color: azure;
+}
+h2{
+    font-family: 'Merriweather', serif; 
+    font-size: 3rem;
+    font-weight: 500;
+}
+.testimonial-text{
+    font-family: 'Merriweather', serif; 
+    font-size: 3rem;
+    font-weight: 500;
+}
+.dogsec-img{
+    width:20%;
+    border-radius: 50%;
+}     
+
+        /* press section */
+
+#press{
+    background-color: #eF8172;
+    padding-bottom: 2% ;   
+}
+.press-logo{
+    width:18%;
+    margin:2% 2%;
+}
+.carousel-item{
+    padding: 5% 14%;
+}
+
+      /* Pricing section */
+
+#pricing{
+    padding:5% 5%;
+    background-color: azure;
+}
+.tbutton{
+    padding:0.5rem 4.5rem;
+}
+.pricing-heading{   
+        font-size: 1.5rem;
+        font-family:'Montserrat', sans-serif ;
+        font-weight: bold;    
+}
+.boxess{
+    padding:2% 1% 2%;
+}
+.pricing-column{
+    padding:1% 2%;
+}
+
+     /* CALL TO ACTION SECTION */
+
+#cta{
+    background-color: #ff4c68;
+    padding: 12% 20%;
+    color: azure;
+    text-align: center;
+}
+.cta-text{
+    font-family: 'Merriweather', serif; 
+    font-size: 3rem;
+    font-weight: 500;    
+}
+.lbuttons{
+    padding:1% 5%;
+    margin:1% 2%;
+} 
+    
+      /* CONTACT SECTION */
+
+#footer{
+    
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #fff;
+    padding: 2% 0%;
+}
+.social-icon{
+    color: #2C3333;
+    padding: 0 1% 1%;
+    margin: 0 1% 1%;
+}
+.social-icon:hover{
+    color:#eF8172
+} 
+
+           /* RESPONSIVENESS IN WEBSITE */
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .dog-img{
+        position:static;
+        transform: rotate(0);
+    }
+    .title-text{
+        font-size: 2.8rem;
+    }
+    .testimonial-text{
+        font-size: 2.8rem;
+    }
+}
